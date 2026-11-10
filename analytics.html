@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="iDx P.C. — Intelligent diagnostics. Biotechnological products, diagnostic solutions and technical support in Athens, Greece."
+    />
+    <meta name="theme-color" content="#0b101b" />
+    <title>Analytics | iDx P.C.</title>
+    <link rel="icon" href="assets/img/idx-favicon.svg" type="image/svg+xml" sizes="any" />
+
+    <script src="assets/js/theme.js"></script>
+    <link rel="stylesheet" href="assets/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/browser.css" />
+    <script defer src="assets/js/app.bundle.js"></script>
+  </head>
+  <body data-page="analytics">
+    <a class="skip-link" href="#main"><span data-i18n="skip">Skip to content</span></a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="iDx P.C. — Home"
+          data-i18n-label="brand.home"
+        >
+          <img
+            class="brand-emblem brand-light"
+            src="assets/img/idx-emblem-black.svg"
+            width="500"
+            height="500"
+            alt="" />
+          <img
+            class="brand-emblem brand-dark"
+            src="assets/img/idx-emblem-white.svg"
+            width="500"
+            height="500"
+            alt="" />
+          <img
+            class="brand-wordmark brand-light"
+            src="assets/img/idx-wordmark-light.svg"
+            width="3840"
+            height="1467"
+            alt="iDx P.C." />
+          <img
+            class="brand-wordmark brand-dark"
+            src="assets/img/idx-wordmark.svg"
+            width="3840"
+            height="1467"
+            alt="iDx P.C."
+        /></a>
+        <nav id="primary-navigation" aria-label="Main navigation" data-i18n-label="nav.main">
+          <a href="index.html"
+            ><span class="locale-label">
+              <span class="locale-reserve" aria-hidden="true">Home</span>
+              <span class="locale-reserve" aria-hidden="true">Αρχική</span>
+              <span class="locale-reserve" aria-hidden="true">Startseite</span
+              ><span class="locale-reserve" aria-hidden="true">Accueil</span>
+              <span data-i18n="nav.index">Home</span>
+            </span></a
+          ><a href="products.html"
+            ><span class="locale-label">
+              <span class="locale-reserve" aria-hidden="true">Products</span>
+              <span class="locale-reserve" aria-hidden="true">Προϊόντα</span>
+              <span class="locale-reserve" aria-hidden="true">Produkte</span
+              ><span class="locale-reserve" aria-hidden="true">Produits</span>
+              <span data-i18n="nav.products">Products</span>
+            </span></a
+          ><a href="about.html"
+            ><span class="locale-label">
+              <span class="locale-reserve" aria-hidden="true">About us</span>
+              <span class="locale-reserve" aria-hidden="true">Σχετικά με εμάς</span>
+              <span class="locale-reserve" aria-hidden="true">Über uns</span
+              ><span class="locale-reserve" aria-hidden="true">À propos</span>
+              <span data-i18n="nav.about">About us</span>
+            </span></a
+          ><a href="contact.html"
+            ><span class="locale-label">
+              <span class="locale-reserve" aria-hidden="true">Contact</span>
+              <span class="locale-reserve" aria-hidden="true">Επικοινωνία</span>
+              <span class="locale-reserve" aria-hidden="true">Kontakt</span
+              ><span class="locale-reserve" aria-hidden="true">Contact</span>
+              <span data-i18n="nav.contact">Contact</span>
+            </span></a
+          >
+          <a data-member hidden href="tasks.html"
+            ><span class="locale-label">
+              <span class="locale-reserve" aria-hidden="true">Tasks</span>
+              <span class="locale-reserve" aria-hidden="true">Εργασίες</span>
+              <span class="locale-reserve" aria-hidden="true">Aufgaben</span
+              ><span class="locale-reserve" aria-hidden="true">Tâches</span>
+              <span data-i18n="nav.tasks">Tasks</span>
+            </span></a
+          >
+          <a data-member hidden href="analytics.html" aria-current="page"
+            ><span class="locale-label">
+              <span class="locale-reserve" aria-hidden="true">Analytics</span>
+              <span class="locale-reserve" aria-hidden="true">Αναλύσεις</span>
+              <span class="locale-reserve" aria-hidden="true">Auswertung</span
+              ><span class="locale-reserve" aria-hidden="true">Analyses</span>
+              <span data-i18n="nav.analytics">Analytics</span>
+            </span></a
+          >
+        </nav>
+        <div class="header-actions">
+          <details class="language-switch" id="language-selector">
+            <summary aria-label="Choose language: English" id="language-toggle">
+              <img id="language-flag" src="assets/img/flags/en.svg" width="30" height="20" alt="" />
+            </summary>
+            <div
+              class="language-options"
+              role="group"
+              data-i18n-label="language.choose"
+              aria-label="Choose language"
+            >
+              <button
+                type="button"
+                data-language="en"
+                lang="en"
+                aria-label="English"
+                aria-pressed="true"
+              >
+                <img src="assets/img/flags/en.svg" width="30" height="20" alt="" /><span
+                  >English</span
+                ></button
+              ><button
+                type="button"
+                data-language="el"
+                lang="el"
+                aria-label="Ελληνικά"
+                aria-pressed="false"
+              >
+                <img src="assets/img/flags/el.svg" width="30" height="20" alt="" /><span
+                  >Ελληνικά</span
+                ></button
+              ><button
+                type="button"
+                data-language="de"
+                lang="de"
+                aria-label="Deutsch"
+                aria-pressed="false"
+              >
+                <img src="assets/img/flags/de.svg" width="30" height="20" alt="" /><span
+                  >Deutsch</span
+                ></button
+              ><button
+                type="button"
+                data-language="fr"
+                lang="fr"
+                aria-label="Français"
+                aria-pressed="false"
+              >
+                <img src="assets/img/flags/fr.svg" width="30" height="20" alt="" /><span
+                  >Français</span
+                >
+              </button>
+            </div>
+          </details>
+          <button
+            id="theme-toggle"
+            class="icon-button"
+            type="button"
+            aria-label="Switch to dark mode"
+            aria-pressed="false"
+          >
+            <span class="sun"
+              ><svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="4" />
+                <path
+                  d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"
+                /></svg></span
+            ><span class="moon"
+              ><svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" /></svg
+            ></span>
+          </button>
+          <button
+            class="signin-button"
+            data-signin
+            data-guest
+            type="button"
+            aria-label="Sign In"
+            data-i18n-label="auth.signin"
+          >
+            <span class="locale-label">
+              <span class="locale-reserve" aria-hidden="true">Sign In</span>
+              <span class="locale-reserve" aria-hidden="true">Σύνδεση</span>
+              <span class="locale-reserve" aria-hidden="true">Anmelden</span
+              ><span class="locale-reserve" aria-hidden="true">Connexion</span>
+              <span data-i18n="auth.signin">Sign In</span>
+            </span>
+          </button>
+          <button
+            class="signin-button"
+            id="signout"
+            data-member
+            hidden
+            type="button"
+            aria-label="Sign out"
+            data-i18n-label="auth.signout"
+          >
+            <svg
+              class="icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M9 4H4v16h5M9 12h12m-4-4 4 4-4 4" /></svg
+            ><span class="locale-label">
+              <span class="locale-reserve" aria-hidden="true">Sign out</span>
+              <span class="locale-reserve" aria-hidden="true">Αποσύνδεση</span>
+              <span class="locale-reserve" aria-hidden="true">Abmelden</span
+              ><span class="locale-reserve" aria-hidden="true">Déconnexion</span>
+              <span data-i18n="auth.signout">Sign out</span>
+            </span>
+          </button>
+          <button
+            id="menu-toggle"
+            class="icon-button"
+            type="button"
+            aria-label="Toggle navigation"
+            data-i18n-label="nav.toggle"
+            aria-expanded="false"
+            aria-controls="primary-navigation"
+          >
+            <span class="menu-lines"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main id="main" tabindex="-1">
+      <section class="page-intro">
+        <div class="container">
+          <p data-i18n="analytics.eyebrow" class="eyebrow">IDX WORKSPACE</p>
+          <h1 data-i18n="analytics.title">A clearer picture of your progress.</h1>
+          <p data-i18n="analytics.intro" class="intro-text">
+            See where work stands, then decide what happens next.
+          </p>
+        </div>
+      </section>
+      <section class="workspace-section">
+        <div class="container">
+          <aside class="demo-tools" id="demo-tools" aria-label="Browser demo">
+            <p data-i18n="demo.notice">
+              Browser demo · Tasks are saved on this browser only. Profiles demonstrate roles; they
+              do not protect data.
+            </p>
+            <div class="demo-actions" data-admin hidden>
+              <button type="button" class="small-button" data-demo-action="samples">
+                <span data-i18n="demo.samples">Load 20 Sample Tasks</span></button
+              ><button type="button" class="small-button" data-demo-action="export">
+                <span data-i18n="demo.export">Export Tasks</span></button
+              ><button type="button" class="small-button" data-demo-action="import">
+                <span data-i18n="demo.import">Import Tasks</span></button
+              ><button type="button" class="small-button" data-demo-action="enquiries">
+                <span data-i18n="demo.enquiries">Export Unsent Enquiries</span>
+              </button>
+              <input
+                type="file"
+                id="demo-import"
+                accept=".json,application/json"
+                hidden
+                aria-label="Import task backup"
+              />
+            </div>
+            <p id="demo-status" role="status"></p>
+          </aside>
+          <p data-i18n="auth.viewerNotice" class="viewer-notice" data-viewer hidden>
+            View-only access. You can browse tasks and analytics, but cannot change tasks.
+          </p>
+          <div class="stats-grid">
+            <div class="stat">
+              <span class="stat-label"><span data-i18n="stat.total">Total tasks</span></span
+              ><strong data-stat="total">0</strong>
+            </div>
+            <div class="stat">
+              <span class="stat-label"><span data-i18n="stat.pending">Pending</span></span
+              ><strong data-stat="pending">0</strong>
+            </div>
+            <div class="stat">
+              <span class="stat-label"><span data-i18n="stat.completed">Completed</span></span
+              ><strong data-stat="completed">0</strong>
+            </div>
+            <div class="stat">
+              <span class="stat-label"><span data-i18n="stat.overdue">Overdue</span></span
+              ><strong data-stat="overdue">0</strong>
+            </div>
+          </div>
+          <p id="task-feedback" role="status"></p>
+          <div class="row g-4 analytics-panels">
+            <div class="col-lg-5">
+              <div class="panel">
+                <h2 data-i18n="chart.title">Work in motion</h2>
+                <div id="status-chart" role="img" aria-label="Task status chart"></div>
+                <p class="small muted">
+                  <span data-i18n="chart.note">Pending includes To do and In progress.</span>
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="panel">
+                <h2 data-i18n="progress.title">Completion</h2>
+                <strong id="completion-number" class="completion-number">0%</strong
+                ><progress
+                  id="completion-progress"
+                  max="100"
+                  value="0"
+                  aria-label="Task completion"
+                >
+                  0%
+                </progress>
+                <p data-i18n="progress.text">One step closer with every completed task.</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="panel">
+                <h2 data-i18n="upcoming.title">Coming up</h2>
+                <ul id="upcoming-tasks" class="upcoming-list"></ul>
+              </div>
+            </div>
+          </div>
+          <div class="panel-heading board-heading">
+            <div>
+              <p data-i18n="board.eyebrow" class="eyebrow">FROM PLAN TO PROGRESS</p>
+              <h2 data-i18n="board.title">Your task board</h2>
+            </div>
+            <a class="button button-outline" href="tasks.html"
+              ><span class="locale-label">
+                <span class="locale-reserve" aria-hidden="true">View tasks</span>
+                <span class="locale-reserve" aria-hidden="true">Προβολή εργασιών</span>
+                <span class="locale-reserve" aria-hidden="true">Aufgaben ansehen</span
+                ><span class="locale-reserve" aria-hidden="true">Voir les tâches</span>
+                <span data-i18n="board.manage">View tasks</span>
+              </span></a
+            >
+          </div>
+          <p data-i18n="board.help" data-editor hidden>
+            Drag a card to another column, or use its status menu. Changes are saved for the whole
+            team.
+          </p>
+          <div id="kanban-board" class="kanban-board"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a class="brand" href="index.html" aria-label="iDx P.C. — Home">
+              <img
+                class="brand-emblem brand-light"
+                src="assets/img/idx-emblem-black.svg"
+                width="500"
+                height="500"
+                alt="" />
+              <img
+                class="brand-emblem brand-dark"
+                src="assets/img/idx-emblem-white.svg"
+                width="500"
+                height="500"
+                alt="" />
+              <img
+                class="brand-wordmark brand-light"
+                src="assets/img/idx-wordmark-light.svg"
+                width="3840"
+                height="1467"
+                alt="iDx P.C." />
+              <img
+                class="brand-wordmark brand-dark"
+                src="assets/img/idx-wordmark.svg"
+                width="3840"
+                height="1467"
+                alt="iDx P.C."
+            /></a>
+            <p data-i18n="footer.tagline">Science with purpose. Support with care.</p>
+          </div>
+          <div>
+            <span class="footer-label"><span data-i18n="footer.explore">Explore</span></span
+            ><a href="about.html"><span data-i18n="nav.about">About us</span></a
+            ><a href="products.html"><span data-i18n="nav.products">Products</span></a
+            ><a href="index.html#solutions"><span data-i18n="nav.solutions">Our solutions</span></a
+            ><a href="contact.html"><span data-i18n="nav.contact">Contact</span></a>
+          </div>
+          <div>
+            <span class="footer-label"><span data-i18n="footer.contact">Let’s connect</span></span
+            ><a href="mailto:info@bioidx.gr">info@bioidx.gr</a
+            ><a href="tel:+302100000000">+30 210 000 0000</a>
+          </div>
+          <address>
+            <span data-i18n="address.street">Syntagma Square</span><br /><span
+              data-i18n="address.city"
+              >Athens, Greece</span
+            >
+          </address>
+        </div>
+        <div class="company-registration">
+          <span data-i18n="company.vat">VAT ID</span> <span>EL800725375</span>
+        </div>
+
+        <div class="footer-bottom">
+          <span>© 2026 iDx P.C. <span data-i18n="footer.rights">All rights reserved.</span></span
+          ><span
+            ><span data-i18n="footer.business">Biotechnological Products &amp; Services</span></span
+          ><a href="contact.html#privacy"
+            ><span data-i18n="footer.privacy">Privacy &amp; website information</span></a
+          >
+          <div class="footer-social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n-label="footer.facebook"
+              aria-label="Facebook homepage (opens in a new tab)"
+            >
+              <img src="assets/img/icon-facebook.svg" width="22" height="22" alt="" />
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n-label="footer.instagram"
+              aria-label="Instagram homepage (opens in a new tab)"
+            >
+              <img src="assets/img/icon-instagram.svg" width="22" height="22" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <dialog id="login-dialog" aria-labelledby="login-title">
+      <button
+        type="button"
+        class="dialog-close"
+        data-close-dialog="login-dialog"
+        aria-label="Close"
+      >
+        ×
+      </button>
+      <p data-i18n="auth.eyebrow" class="eyebrow">THE IDX WORKSPACE</p>
+      <h2 data-i18n="auth.welcome" id="login-title">Welcome back.</h2>
+      <p data-i18n="auth.intro">
+        Choose a demo profile. This browser-only copy does not use passwords or provide secure
+        access control.
+      </p>
+      <form id="login-form">
+        <label for="login-username"><span data-i18n="auth.username">Demo Account</span></label>
+        <select class="form-select" id="login-username" name="username" required>
+          <option value="vtsevis">Vasileios Tsevis — Administrator</option>
+          <option value="admin">Admin — Administrator</option>
+          <option value="lmageiros">Leonardos Mageiros — View Only</option>
+          <option value="user1">User1 — Assigned Tasks</option>
+          <option value="user2">User2 — Assigned Tasks</option>
+          <option value="user3">User3 — Assigned Tasks</option>
+          <option value="user4">User4 — Assigned Tasks</option>
+        </select>
+        <p id="login-status" role="status"></p>
+        <button class="button button-primary w-100" type="submit">
+          <span data-i18n="auth.submit">Sign in to workspace</span>
+        </button>
+      </form>
+    </dialog>
+    <noscript
+      ><div class="noscript-message">
+        JavaScript is required for language settings, sign-in, and workspace features. Contact us at
+        info@bioidx.gr.
+      </div></noscript
+    >
+  </body>
+</html>
